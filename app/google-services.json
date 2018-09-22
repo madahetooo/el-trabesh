@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "310161787230",
+    "firebase_url": "https://exchat-ad64c.firebaseio.com",
+    "project_id": "exchat-ad64c",
+    "storage_bucket": "exchat-ad64c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:310161787230:android:3c04f172b481b2f6",
+        "android_client_info": {
+          "package_name": "com.wether.exchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "310161787230-0vubdlk1v016q4uth7bds465m17m8stu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wether.exchat",
+            "certificate_hash": "cadce1d2e2e3f8765713c15fb0fa34e092ee8947"
+          }
+        },
+        {
+          "client_id": "310161787230-jp2nhdd5dbpn7846hgcg40sc9etc0913.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLJpJwCbNQbtwmCHtYtFeqDf7kg7v5n4Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "310161787230-jp2nhdd5dbpn7846hgcg40sc9etc0913.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

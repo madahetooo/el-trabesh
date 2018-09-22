@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ece5d5"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.wether.exchat.Verification">
+
+
+    <TextView
+        android:id="@+id/txPhoneNumberVerification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone Number Verification"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="15dp"
+        android:textColor="#000000"/>
+    <EditText
+        android:id="@+id/etPhoneRequest"
+        style="@style/Edit_Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:hint="Enter Phone Number"
+        android:inputType="phone"
+        android:textColor="#000"
+        android:textColorHint="#938f8f"
+         />
+
+
+    <Button
+        android:id="@+id/bVerify"
+        style="@style/Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etPhoneRequest"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Verify"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

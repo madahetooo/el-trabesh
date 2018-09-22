@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="165dp"
+    android:background="@drawable/shape"
+    android:orientation="vertical"
+    android:id="@+id/nav_header"
+
+
+    >
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/imageView_eltrapesh1"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:src="@drawable/el_trapesh1"
+        app:civ_border_width="4dp"
+        android:layout_margin="10dp"
+        app:civ_border_color="#FF000000"/>
+
+
+    <TextView
+        android:id="@+id/txName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EL-Trapesh"
+        android:textColor="#000"
+        android:layout_margin="10dp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+         />
+
+
+
+</LinearLayout>

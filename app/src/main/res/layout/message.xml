@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ece5d5"
+    android:padding="3dp">
+    <TextView
+        android:id="@+id/txMessageUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="UserName"
+        android:textColor="#000000"
+        android:textSize="12dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/txMessageText"
+        style="@style/massage_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txMessageUser"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:text="Here is your message!!"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#000000"
+        android:textSize="18sp"
+         />
+    <TextView
+        android:id="@+id/txMessageTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txMessageUser"
+        android:layout_alignBottom="@+id/txMessageUser"
+        android:layout_alignParentEnd="true"
+        android:text="Time"
+        android:textColor="#000000"
+        android:textSize="8dp"
+        />
+</LinearLayout>
